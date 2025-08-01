@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SMS Opt-In | Paybridge LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 50px auto; padding: 20px; background: #f9f9f9; border-radius: 8px; }
+    h1 { color: #333; }
+    label { font-weight: bold; display: block; margin-top: 20px; }
+    input[type="text"] { width: 100%; padding: 10px; margin-top: 5px; border-radius: 5px; border: 1px solid #ccc; }
+    .disclaimer { margin-top: 20px; font-size: 0.9em; color: #666; }
+  </style>
+</head>
+<body>
+  <h1>Subscribe to SMS Alerts</h1>
+  <form>
+    <label for="phone">Enter your phone number:</label>
+    <input type="text" id="phone" name="phone" placeholder="+1 555-555-5555">
+
+    <div class="disclaimer">
+      By submitting your phone number, you agree to receive text messages from Paybridge LLC. Message frequency varies. Message and data rates may apply. Reply STOP to unsubscribe. Reply HELP for help. We do not share your mobile information. See our <a href="https://paybridgellc.com/privacy-policy">Privacy Policy</a>.
+    </div>
+  </form>
+</body>
+</html>
